@@ -66,13 +66,13 @@ Hooks.once("init", async() => {
     
     let insert_43 = `<div class="fsc-sf">
                 <div class="fsc-tf">
-                    <div class="fsc-uf">Stardate: {{stardate}}</div>
+                    <div class="fsc-uf">{{localize 'SimpleStardate.Stardate'}} {{stardate}}</div>
                 </div>
             </div>`;
     
     let insert_314 = `<div class="fsc-mb" style="width:82%">
                 <div class="fsc-tf">
-                    <div class="fsc-uf" style="text-align: center;">Stardate: {{stardate}}</div>
+                    <div class="fsc-uf" style="text-align: center;">{{localize 'SimpleStardate.Stardate'}} {{stardate}}</div>
                 </div>
             </div>`;
 
